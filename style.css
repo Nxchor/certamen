@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background: rgb(0, 26, 255);
+    color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 3rem;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    gap: 2.5rem;
+}
+
+body {
+    background: linear-gradient(90deg,
+            rgb(45, 30, 117), rgb(12, 61, 14));
+    font-family: "Roboto", sans-serif;
+    color: rgb(100, 16, 62);
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: rgb(207, 207, 207);
+}
+
+.sobre-mi {
+    margin: 3rem auto;
+    max-width: 1000px;
+}
+
+.nombre {
+    color: rgb(255, 255, 255);
+}
+
+.sobre-mi h3 {
+    font-weight: normal;
+}
+
+.sobre-mi h2 {
+    font-size: 2rem;
+}
+
+.Logo {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logo-L {
+    padding: .3rem .4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: .5rem;
+}
