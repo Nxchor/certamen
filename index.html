@@ -1,127 +1,159 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ignacio rivera</title>
+    <title>Portafolio Profesional | Ignacio Rivera</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <div class="Logo">
-            <h2 class="logo-L">IR</h2>
-            <h2>ignacio rivera r</h2>
+
+    <header class="main-header">
+        <div class="logo">
+            <img src="https://via.placeholder.com/40" alt="Logo Ignacio Rivera" width="40" height="40">
+            <span>IR - Ignacio Rivera</span>
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#sobre-mi">informacion</a></li>
-                <li><a href="#">Habilidades</a></li>
-                <li><a href="#">Proyecto</a></li>
-                <li><a href="#">numero</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
-            <article id="sobre-mi" class="sobre-mi">
-                <h2>Hola, soy <color class="nombre">Ignacio Rivera</color>
-                </h2>
-                <br>
-                <h3>Estudiante de ingenieria en ciberseguridad</h3>
-                <br>
-                <p>Apasionado por crear experiancias web modernas y accesibles.
-                    Actualmente cursando la carrera de <strong>Analista Programador</strong>
-                    en el instituto Técnico.
-                </p>
-            </article>
+        <section class="hero">
+            <h1>Hola, soy Ignacio Rivera</h1>
+            <p class="subtitle">Estudiante de Programación en INACAP</p>
         </section>
+
         <section id="sobre-mi" class="about">
-    <article>
-        <h2>Sobre Mí</h2>
-        <p>Mi nombre es <strong>Ignacio Rivera</strong> y actualmente estudio en la sede de <strong>Concepción</strong>.</p>
-        <p>Me apasiona el desarrollo de software y la infraestructura de redes, áreas en las que busco profesionalizarme.</p>
-        <blockquote>"El único modo de hacer un gran trabajo es amar lo que haces." — Steve Jobs</blockquote>
-    </article>
-    <aside>
-        <h3>Datos de Interés</h3>
-        <ul>
-            <li><strong>Edad:</strong> 22 años</li>
-            <li><strong>Ubicación:</strong> Concepción, Chile</li>
-            <li><strong>Institución:</strong> INACAP</li>
-        </ul>
-    </aside>
-</section>
-<section id="habilidades">
-    <h2>Habilidades Técnicas</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Tecnología / Conocimiento</th>
-                <th>Nivel de Dominio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr><td>Python (Finanzas/Bases de Datos)</td><td>Intermedio</td></tr>
-            <tr><td>IPv4 y Subnetting (Networking)</td><td>Avanzado</td></tr>
-            <tr><td>HTML5 & CSS3</td><td>En Proceso</td></tr>
-        </tbody>
-    </table>
-    <h3>Otras Competencias</h3>
-    <ul>
-        <li>Calidad de Software (ISO 25010)</li>
-        <li>Análisis de Algoritmos (Rubik's Cube solving)</li>
-    </ul>
-    <h3>Ruta de Aprendizaje</h3>
-    <ol>
-        <li>Dominio de Front-End (HTML/CSS)</li>
-        <li>Profundización en Redes y Networking</li>
-        <li>Certificaciones de Calidad de Software</li>
-    </ol>
-</section>
-<section id="proyectos" class="gallery">
-    <h2>Mis Trabajos</h2>
-    <figure class="project-item">
-        <img src="https://via.placeholder.com/300x200" alt="App Financiera Python" width="300" height="200">
-        <figcaption>
-            <h3>Gestor Financiero Python</h3>
-            <p>Aplicación modular con MySQL y reportes FPDF.</p>
-            <a href="https://github.com/yasnaleon" target="_blank">Ver Repositorio</a>
-        </figcaption>
-    </figure>
-</section>
-<section id="contacto">
-    <h2>Contacto</h2>
-    <form action="#" method="POST">
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        
-        <label for="asunto">Asunto:</label>
-        <select id="asunto" name="asunto">
-            <option value="colaboracion">Colaboración</option>
-            <option value="consulta">Consulta General</option>
-        </select>
-        
-        <label for="mensaje">Mensaje:</label>
-        <textarea id="mensaje" name="mensaje" required></textarea>
-        
-        <button type="submit">Enviar Mensaje</button>
-    </form>
-</section>
+            <div class="content-wrapper">
+                <article>
+                    <h2>Sobre Mí</h2>
+                    <p>Mi nombre es <strong>Ignacio Rivera</strong>, estudiante de la carrera de Programación en <strong>INACAP</strong>. Resido en la región del Biobío y me apasiona el desarrollo de software de calidad.</p>
+                    <p>Actualmente me enfoco en el dominio de lenguajes como <em>Python</em> y el estudio de infraestructura de redes <em>IPv4</em>.</p>
+                    <blockquote>"La tecnología es el motor que impulsa el cambio positivo en el mundo."</blockquote>
+                </article>
+                <aside class="personal-card">
+                    <h3>Perfil</h3>
+                    <ul>
+                        <li><strong>Ubicación:</strong> Concepción, Chile</li>
+                        <li><strong>Formación:</strong> Analista Programador</li>
+                        <li><strong>Estado:</strong> Estudiante Activo</li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
 
+        <section id="habilidades" class="skills">
+            <h2>Habilidades Técnicas</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tecnología</th>
+                            <th>Área</th>
+                            <th>Nivel de Dominio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Python</td>
+                            <td>Backend</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>MySQL</td>
+                            <td>Bases de Datos</td>
+                            <td>Intermedio</td>
+                        </tr>
+                        <tr>
+                            <td>Networking</td>
+                            <td>IPv4 / Subnetting</td>
+                            <td>Avanzado</td>
+                        </tr>
+                        <tr>
+                            <td>HTML5 / CSS3</td>
+                            <td>Frontend</td>
+                            <td>Iniciación</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extra-skills">
+                <h3>Competencias adicionales</h3>
+                <ul>
+                    <li>Calidad de Software (ISO 25010)</li>
+                    <li>Control de versiones (Git/GitHub)</li>
+                    <li>Resolución de algoritmos lógicos</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="proyectos" class="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="projects-grid">
+                <figure class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Finanzas Python" width="400" height="250">
+                    <figcaption>
+                        <h3>Gestor Financiero</h3>
+                        <p>Aplicación modular en Python para manejo de presupuestos con MySQL.</p>
+                        <a href="https://github.com/ignacio-rivera" target="_blank">Ver repositorio →</a>
+                    </figcaption>
+                </figure>
+                <figure class="project-card">
+                    <img src="https://via.placeholder.com/400x250" alt="Proyecto Redes IPv4" width="400" height="250">
+                    <figcaption>
+                        <h3>Calculadora de Subredes</h3>
+                        <p>Herramienta lógica para el cálculo eficiente de prefijos CIDR.</p>
+                        <a href="https://github.com/ignacio-rivera" target="_blank">Ver repositorio →</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <h2>Contacto</h2>
+            <div class="contact-container">
+                <form action="#" method="POST" class="contact-form">
+                    <div class="form-field">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" id="name" placeholder="Ej: Ignacio Rivera" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="ignacio@correo.cl" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">Asunto</label>
+                        <select id="subject">
+                            <option value="colaboracion">Colaboración</option>
+                            <option value="oferta">Oferta Laboral</option>
+                            <option value="otro">Otros</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="msg">Mensaje</label>
+                        <textarea id="msg" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
     </main>
-<footer class="main-footer">
-    <p>&copy; 2026 I.Rivera.R. Todos los derechos reservados.</p>
-</footer>
-</body>
 
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Ignacio Rivera. Estudiante de INACAP Concepción.</p>
+            <div class="footer-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
 </html>
