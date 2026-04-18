@@ -69,3 +69,34 @@ body {
     background-color: rgb(255, 255, 255);
     border-radius: .5rem;
 }
+/* Flexbox en el Header y Formulario (Criterio 10) */
+.main-header, .navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+}
+
+/* Grid en Galería de Proyectos (Criterio 11) */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilos de Tabla (Criterio 14) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: left;
+}
